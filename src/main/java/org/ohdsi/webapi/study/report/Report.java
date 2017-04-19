@@ -53,7 +53,7 @@ public class Report {
 
     @Column(name="CREATED_DATE",columnDefinition="DATETIME")
     @Basic
-    @Temporal(TemporalType.DATE)
+    @Temporal(TemporalType.TIMESTAMP)
     private Date createdDate;
 
     @Column(name="MODIFIED_BY",columnDefinition="VARCHAR(100)")
